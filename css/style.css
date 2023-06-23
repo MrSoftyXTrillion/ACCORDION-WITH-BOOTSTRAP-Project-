@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to top, #7f00ff, #e100ff);
+}
+.accordion {
+    height: 100vh;
+    display: flex;
+}
+.accordionbox {
+    margin: auto;
+    width: 1120px;
+    height: 600px;
+    display: flex;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+.accordion .accordionbox .imagepart1 {
+    position: absolute;
+    border-radius: 40px 0 0 40px;
+    transform: scale(1.5);
+    height: 405px;
+    width: 323px;
+    margin: 98px auto auto 81px; 
+}
+.accordion .accordionbox .imagepart1 img {
+    width: 323px;
+    height: 450px;
+}
+.accordion .accordionbox .imagepart2 {
+    position: absolute;
+    top: 230px;
+    left: -95px;
+}
+.accordion .accordionbox .faqbox .heading {
+    margin: 0px 0;
+}
+.accordion .accordionbox .faqbox {
+    display: inline-block;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 70px;
+    width: 500px;
+    font-size: 15px;
+}
+.accordion .accordionbox .faqbox .accordion-item {
+    margin: 20px 0px;
+    border: none;
+    border-bottom: 1px solid #d4d0d0;
+}
+.accordion .accordionbox .faqbox .accordion-item button {
+    background-color: rgb(255, 255, 255);
+}
+.accordion .accordionbox .faqbox .accordion-item button:hover {
+    color: orangered;
+    cursor: pointer;
+}
